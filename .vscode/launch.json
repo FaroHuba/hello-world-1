@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        
+
+        
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "name": "https://127.0.0.1:3000/templates/index.html",
+            "request": "launch",
+            "url": "http://localhost:8080"
+        }
+    ]
+}
